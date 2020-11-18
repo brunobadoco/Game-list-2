@@ -47,6 +47,9 @@ Widget FormularioUsuarioUI(var meuFormulario) {
 
 
   return Column(children: [
+new Image.network ( 
+     'https://www.flaticon.com/svg/static/icons/svg/39/39728.svg', 
+          ),
     Text("Cadastra-se"),
     TextFormField(
         decoration: InputDecoration(labelText: "Nome do usuario:"),
